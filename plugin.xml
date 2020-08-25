@@ -277,7 +277,6 @@
         
         </config-file>
         
-        <framework src="com.google.android.gms:play-services-ads:10+" />
 
         <source-file src="src/android/AppodealPlugin.java" target-dir="src/com/appodeal/plugin" />
     	<framework src="src/android/dependency_fix.gradle" custom="true" type="gradleReference" />
