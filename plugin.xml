@@ -296,6 +296,7 @@
 		<source-file src="libs/Android/mobvista_appwallext.jar" target-dir="libs" />
 		<source-file src="libs/Android/mobvista_mvjscommon.jar" target-dir="libs" />
         <framework src="libs/Android/adcolony" custom="true" />
+		<framework src="com.android.support:multidex:1.0.3"  />
 		<framework src="libs/Android/mobvista_appwall" custom="true" />
 		<framework src="libs/Android/mobvista_common" custom="true" />
 		<framework src="libs/Android/mobvista_interstitial" custom="true" />
