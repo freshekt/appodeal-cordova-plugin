@@ -1,3 +1,13 @@
+android {
+    defaultConfig {
+		multiDexEnabled true
+	}
+}
+
+dependencies {
+	implementation "androidx.multidex:multidex:2.0.0"
+}
+
 def right_version = "10+"; //version from Appodeal plugin
 configurations.all{
 	dependencies.all{ Dependency d ->
